@@ -1,2 +1,3 @@
-Krzysztof 20
-Janusz 40
+tomek 18
+romek 19
+atomek 20
