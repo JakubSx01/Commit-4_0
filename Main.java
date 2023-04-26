@@ -28,7 +28,9 @@ class Main {
           String nazwisko = scan.nextLine();
           System.out.println("Wprowadz wiek:");
           int age = scan.nextInt();
-          s.addStudent(new Student(name, nazwisko, age));
+          System.out.println("Wprowadz ulice:");scan.nextLine();
+          String ulica = scan.nextLine();
+          s.addStudent(new Student(name, nazwisko, age, ulica));
         } break;
         case 2:{
           var students = s.getStudents();
