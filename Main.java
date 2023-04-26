@@ -30,7 +30,9 @@ class Main {
           int age = scan.nextInt();
           System.out.println("Wprowadz ulice:");scan.nextLine();
           String ulica = scan.nextLine();
-          s.addStudent(new Student(name, nazwisko, age, ulica));
+          System.out.println("Wprowadz dataurodzenia:");
+          String dataurodzenia = scan.nextLine();
+          s.addStudent(new Student(name, nazwisko, age, ulica, dataurodzenia));
         } break;
         case 2:{
           var students = s.getStudents();
